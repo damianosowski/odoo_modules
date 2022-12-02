@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+       <record id="ir_cron_scheduler_sale_order_archive" model="ir.cron">
+           <field name="name">Sale Order Archive</field>
+           <field name="model_id" ref="model_sale_order"/>
+           <field name="state">code</field>
+           <field name="code">model._archive_orders()</field>
+           <field name="interval_number">1</field>
+           <field name="interval_type">days</field>
+           <field name="numbercall">-1</field>
+       </record>
+    </data>
+</odoo>
