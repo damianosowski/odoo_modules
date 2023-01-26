@@ -1,9 +1,0 @@
-1) Dodać nowy model sale_order_archive wraz z polami:
-    a) nazwa SO
-    b) cena końcowa
-    c) waluta
-    d) partner
-    e) data potwierdzenia SO
-2) Stworzyć główne menu dla nowego modelu wraz z widokiem drzewa, na widoku drzewa wyciągnąć wszystkie dostępne pola z atrybutem readonly.
-3) Raz dziennie o godzinie 22 zarchiwizować wszystkie Sale Ordery w statusie 'sale_order' które są potwierdzone ponad 30 dni temu. Zarchiwizowane Sale ordery odtworzyć w nowym modelu wraz z wypełnieniem pol.
-4) Menu z nowym modelem dostępne dla grupy 'sales / administrator'.
