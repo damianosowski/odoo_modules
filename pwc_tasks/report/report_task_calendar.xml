@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_report_task_calendar_xlsx" model="ir.actions.report">
+            <field name="name">Task Calendar</field>
+            <field name="model">project.task.calendar</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">pwc_tasks.task_calendar</field>
+            <field name="report_file">pwc_tasks.task_calendar</field>
+            <field name="binding_type">report</field>
+        </record>
+    </data>
+</odoo>
